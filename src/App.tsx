@@ -83,7 +83,7 @@ export default function App() {
         Task Manager
       </h1>
 
-      {/* ADD TASK */}
+     
       <div className="mb-10 flex flex-col sm:flex-row justify-center items-center gap-4">
         <input
           value={title}
@@ -99,7 +99,7 @@ export default function App() {
         </button>
       </div>
 
-      {/* BOARD */}
+     
       <DndContext onDragEnd={handleDragEnd}>
         <div className="flex flex-wrap justify-center gap-6">
           {COLUMNS.map((column) => (
